@@ -12,8 +12,6 @@ function extrae_ligas($archivo)
 		{
 			if(!empty($elf[$i]))
 			{
-				//file_put_contents($log, $elf[$i].$delimiter, FILE_APPEND);
-				//echo "pasa: ".$elf[$i]."<br>";
 				$direcciones[]=$elf[$i];
 			}
 		}
