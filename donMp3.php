@@ -1,4 +1,5 @@
 #!/usr/bin/php
+<?php
 /**********************************************************/
 /* El archivo que se le pasa como parametro al script es  */
 /* una lista de links que hacen referencia a los archivos */
@@ -11,7 +12,6 @@
 /* como parametro esa lista y listo                       */
 /* dudas: zaer00t@gmail.com                               */
 /**********************************************************/
-<?php
 function extrae_ligas($archivo)
 {
 	if(is_file($archivo))
